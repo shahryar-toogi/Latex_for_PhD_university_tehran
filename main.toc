@@ -1,0 +1,186 @@
+\contentsline {paragraph}{\numberline {0-0-0-0-1}کلمات کلیدی}{هفت}{paragraph.0.0.0.0.1}%
+\contentsline {chapter}{فهرست شکل‌ها}{خ}{section*.6}%
+\contentsline {chapter}{فهرست جدول‌ها}{د}{section*.7}%
+\contentsline {chapter}{\rl {فهرست اختصارات}}{ذ}{section*.8}%
+\contentsline {chapter}{\numberline {1}کلیات تحقیق}{1}{chapter.1}%
+\contentsline {section}{\numberline {1-1}مقدمه}{1}{section.1.1}%
+\contentsline {section}{\numberline {1-2}بیان مسئله}{1}{section.1.2}%
+\contentsline {section}{\numberline {1-3}اهمیت و ضرورت تحقیق}{2}{section.1.3}%
+\contentsline {section}{\numberline {1-4}کاربردهای شناسایی کور کدهای کانال}{2}{section.1.4}%
+\contentsline {section}{\numberline {1-5}چالش‌های شناسایی کور کدهای توربو}{2}{section.1.5}%
+\contentsline {section}{\numberline {1-6}اهداف تحقیق}{3}{section.1.6}%
+\contentsline {section}{\numberline {1-7}پرسش‌های اصلی تحقیق}{3}{section.1.7}%
+\contentsline {section}{\numberline {1-8}فرضیات و محدودیت‌های تحقیق}{3}{section.1.8}%
+\contentsline {section}{\numberline {1-9}نوآوری‌های تحقیق}{3}{section.1.9}%
+\contentsline {section}{\numberline {1-10}روش تحقیق}{4}{section.1.10}%
+\contentsline {section}{\numberline {1-11}ساختار رساله}{4}{section.1.11}%
+\contentsline {chapter}{\numberline {2}مبانی نظری و پیشینه پژوهش}{5}{chapter.2}%
+\contentsline {section}{\numberline {2-1}مقدمه}{5}{section.2.1}%
+\contentsline {section}{\numberline {2-2}کدهای تصحیح خطا}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2-2-1}مفهوم کدگذاری کانال}{5}{subsection.2.2.1}%
+\contentsline {paragraph}{\numberline {2-2-1-0-1}کدهای بلوکی}{5}{paragraph.2.2.1.0.1}%
+\contentsline {paragraph}{\numberline {2-2-1-0-2}کدهای کانولوشنی}{5}{paragraph.2.2.1.0.2}%
+\contentsline {paragraph}{\numberline {2-2-1-0-3}کدهای LDPC}{6}{paragraph.2.2.1.0.3}%
+\contentsline {paragraph}{\numberline {2-2-1-0-4}کدهای توربو}{6}{paragraph.2.2.1.0.4}%
+\contentsline {section}{\numberline {2-3}کدهای توربو}{6}{section.2.3}%
+\contentsline {subsection}{\numberline {2-3-1}تاریخچه و تکامل کدهای توربو}{6}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2-3-2}ساختار Turbo Code}{6}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2-3-3}کدگذارهای RSC}{6}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2-3-4}پلی‌نوم‌های مولد}{6}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2-3-5}حافظه و حالت‌های کدگذار}{7}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2-3-6}ترلیس و گذارهای حالت}{7}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2-3-7}خاتمه ترلیس}{7}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2-3-8}درهم‌ریز داخلی}{7}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2-3-9}درهم‌ریز خارجی}{7}{subsection.2.3.9}%
+\contentsline {subsection}{\numberline {2-3-10}پانچینگ و نرخ کد}{7}{subsection.2.3.10}%
+\contentsline {subsection}{\numberline {2-3-11}ساختار سریالی خروجی کد توربو}{7}{subsection.2.3.11}%
+\contentsline {section}{\numberline {2-4}مدل کانال و مدل مشاهده}{8}{section.2.4}%
+\contentsline {subsection}{\numberline {2-4-1}کانال AWGN}{8}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2-4-2}BPSK}{8}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2-4-3}آشکارسازی سخت}{8}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2-4-4}آشکارسازی نرم}{8}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2-4-5}مدل کانال معادل BSC}{8}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2-5}مفهوم شناسایی کور}{8}{section.2.5}%
+\contentsline {section}{\numberline {2-6}شناسایی کور کدهای کانولوشنی}{9}{section.2.6}%
+\contentsline {section}{\numberline {2-7}شناسایی کور کدهای توربو}{9}{section.2.7}%
+\contentsline {subsection}{\numberline {2-7-1}شناسایی پارامترهای کدگذار}{9}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2-7-2}بازیابی پلی‌نوم‌ها}{9}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2-7-3}بازیابی درهم‌ریز}{9}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2-7-4}تشخیص نرخ کد}{9}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2-7-5}تشخیص طول فریم}{9}{subsection.2.7.5}%
+\contentsline {subsection}{\numberline {2-7-6}تشخیص حافظه}{9}{subsection.2.7.6}%
+\contentsline {subsection}{\numberline {2-7-7}تشخیص پانچینگ}{9}{subsection.2.7.7}%
+\contentsline {subsection}{\numberline {2-7-8}همزمان‌سازی و تعیین مرز فریم}{9}{subsection.2.7.8}%
+\contentsline {section}{\numberline {2-8}روش‌های موجود در ادبیات}{10}{section.2.8}%
+\contentsline {section}{\numberline {2-9}شکاف پژوهشی}{10}{section.2.9}%
+\contentsline {chapter}{\numberline {3}مدل سیستم و صورت‌بندی ریاضی مسئله}{11}{chapter.3}%
+\contentsline {section}{\numberline {3-1}مقدمه}{11}{section.3.1}%
+\contentsline {section}{\numberline {3-2}ساختار عمومی کد توربو}{11}{section.3.2}%
+\contentsline {section}{\numberline {3-3}مدل کدگذار RSC}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3-3-1}مدل چندجمله‌ای}{12}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3-3-2}تابع انتقال}{12}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3-3-3}نمایش باینری و اکتال}{12}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3-3-4}معادلات بازگشتی}{12}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3-4}مدل درهم‌ریز داخلی}{12}{section.3.4}%
+\contentsline {section}{\numberline {3-5}مدل درهم‌ریز خارجی}{12}{section.3.5}%
+\contentsline {section}{\numberline {3-6}مدل پانچینگ}{12}{section.3.6}%
+\contentsline {section}{\numberline {3-7}مدل خاتمه ترلیس}{13}{section.3.7}%
+\contentsline {section}{\numberline {3-8}مدل کانال}{13}{section.3.8}%
+\contentsline {subsection}{\numberline {3-8-1}AWGN}{13}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3-8-2}BPSK}{13}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {3-8-3}BSC معادل}{13}{subsection.3.8.3}%
+\contentsline {section}{\numberline {3-9}مدل دریافت}{13}{section.3.9}%
+\contentsline {section}{\numberline {3-10}تعریف پارامترهای مجهول}{14}{section.3.10}%
+\contentsline {section}{\numberline {3-11}تعریف مسئله بازسازی کور}{14}{section.3.11}%
+\contentsline {chapter}{\numberline {4}روش پیشنهادی بازسازی کور مشترک}{15}{chapter.4}%
+\contentsline {section}{\numberline {4-1}مقدمه}{15}{section.4.1}%
+\contentsline {section}{\numberline {4-2}ایده اصلی روش پیشنهادی}{15}{section.4.2}%
+\contentsline {section}{\numberline {4-3}تعریف فضای جست‌وجو}{16}{section.4.3}%
+\contentsline {subsection}{\numberline {4-3-1}فضای پلی‌نوم‌ها}{16}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4-3-2}فضای حافظه}{16}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4-3-3}فضای درهم‌ریزها}{16}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4-3-4}محدودیت‌های طول فریم}{16}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4-4}استخراج قیود جبری RSC}{16}{section.4.4}%
+\contentsline {subsection}{\numberline {4-4-1}رابطه recursive}{16}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4-4-2}قیود parity}{16}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4-4-3}قیود polynomial realizability}{16}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4-5}آزمون آماری قیود}{17}{section.4.5}%
+\contentsline {subsection}{\numberline {4-5-1}احتمال برقراری constraint}{17}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4-5-2}احتمال نقض constraint}{17}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4-5-3}مدل Binomial}{17}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4-5-4}تعیین آستانه رد}{17}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4-5-5}کنترل احتمال پذیرش کاذب}{17}{subsection.4.5.5}%
+\contentsline {section}{\numberline {4-6}معماری جست‌وجوی درختی}{17}{section.4.6}%
+\contentsline {subsection}{\numberline {4-6-1}تعریف Node}{17}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4-6-2}تعریف Depth}{17}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4-6-3}تعریف Hypothesis}{17}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4-6-4}Priority Queue}{17}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4-6-5}Best-first Search}{17}{subsection.4.6.5}%
+\contentsline {section}{\numberline {4-7}فاز اول بازسازی}{18}{section.4.7}%
+\contentsline {subsection}{\numberline {4-7-1}بازسازی \(U_1\)}{18}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4-7-2}بازسازی \(P_1\)}{18}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4-7-3}بازسازی \(q(D)\)}{18}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4-7-4}استخراج \(g_0(D)\)}{18}{subsection.4.7.4}%
+\contentsline {subsection}{\numberline {4-7-5}استخراج \(g_1(D)\)}{18}{subsection.4.7.5}%
+\contentsline {subsection}{\numberline {4-7-6}تعیین حافظه \(m\)}{18}{subsection.4.7.6}%
+\contentsline {subsection}{\numberline {4-7-7}کنترل طول فریم}{18}{subsection.4.7.7}%
+\contentsline {section}{\numberline {4-8}فاز دوم بازسازی}{19}{section.4.8}%
+\contentsline {subsection}{\numberline {4-8-1}بازسازی \(U_2\)}{19}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4-8-2}بازسازی \(P_2\)}{19}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4-8-3}قیود interleaver}{19}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4-8-4}بازیابی \(\pi _i\)}{19}{subsection.4.8.4}%
+\contentsline {subsection}{\numberline {4-8-5}بازیابی \(\pi _o\)}{19}{subsection.4.8.5}%
+\contentsline {section}{\numberline {4-9}راهبردهای Pruning}{19}{section.4.9}%
+\contentsline {subsection}{\numberline {4-9-1}Parity-consistency}{19}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4-9-2}Polynomial realizability}{19}{subsection.4.9.2}%
+\contentsline {subsection}{\numberline {4-9-3}Interleaver consistency}{19}{subsection.4.9.3}%
+\contentsline {subsection}{\numberline {4-9-4}Encoder-domain constraint}{19}{subsection.4.9.4}%
+\contentsline {subsection}{\numberline {4-9-5}Heuristic pruning}{19}{subsection.4.9.5}%
+\contentsline {section}{\numberline {4-10}الگوریتم نهایی}{20}{section.4.10}%
+\contentsline {section}{\numberline {4-11}تحلیل درستی الگوریتم}{21}{section.4.11}%
+\contentsline {subsection}{\numberline {4-11-1}شرط لازم}{21}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {4-11-2}شرط کافی}{21}{subsection.4.11.2}%
+\contentsline {subsection}{\numberline {4-11-3}احتمال حذف جواب واقعی}{21}{subsection.4.11.3}%
+\contentsline {subsection}{\numberline {4-11-4}احتمال پذیرش جواب کاذب}{21}{subsection.4.11.4}%
+\contentsline {subsection}{\numberline {4-11-5}کامل بودن یا عدم کامل بودن جست‌وجو}{21}{subsection.4.11.5}%
+\contentsline {chapter}{\numberline {5}تحلیل نظری و پیچیدگی محاسباتی}{23}{chapter.5}%
+\contentsline {section}{\numberline {5-1}مقدمه}{23}{section.5.1}%
+\contentsline {section}{\numberline {5-2}پیچیدگی فضای جست‌وجوی کامل}{23}{section.5.2}%
+\contentsline {section}{\numberline {5-3}پیچیدگی حالت brute-force}{23}{section.5.3}%
+\contentsline {section}{\numberline {5-4}پیچیدگی جست‌وجوی محدودشده}{24}{section.5.4}%
+\contentsline {section}{\numberline {5-5}تحلیل Branching Factor}{24}{section.5.5}%
+\contentsline {section}{\numberline {5-6}اثر قیود بر کاهش فضای جست‌وجو}{24}{section.5.6}%
+\contentsline {section}{\numberline {5-7}رابطه پیچیدگی با نویز}{24}{section.5.7}%
+\contentsline {section}{\numberline {5-8}اثر حافظه کدگذار}{24}{section.5.8}%
+\contentsline {section}{\numberline {5-9}اثر طول interleaver}{25}{section.5.9}%
+\contentsline {section}{\numberline {5-10}تحلیل زمان اجرا}{25}{section.5.10}%
+\contentsline {section}{\numberline {5-11}کران‌های عملی روش}{25}{section.5.11}%
+\contentsline {chapter}{\numberline {6}نتایج شبیه‌سازی و ارزیابی عملکرد}{27}{chapter.6}%
+\contentsline {section}{\numberline {6-1}محیط شبیه‌سازی}{27}{section.6.1}%
+\contentsline {section}{\numberline {6-2}پارامترهای شبیه‌سازی}{27}{section.6.2}%
+\contentsline {section}{\numberline {6-3}معیارهای ارزیابی}{28}{section.6.3}%
+\contentsline {subsection}{\numberline {6-3-1}Reconstruction Success Rate}{28}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6-3-2}False Reconstruction Rate}{28}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6-3-3}Number of admissible solutions}{28}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6-3-4}Structural distance}{28}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6-3-5}Runtime}{28}{subsection.6.3.5}%
+\contentsline {subsection}{\numberline {6-3-6}Number of expanded nodes}{28}{subsection.6.3.6}%
+\contentsline {subsection}{\numberline {6-3-7}Number of pruned nodes}{28}{subsection.6.3.7}%
+\contentsline {section}{\numberline {6-4}اثر SNR / \(P_b\)}{28}{section.6.4}%
+\contentsline {section}{\numberline {6-5}اثر طول interleaver}{28}{section.6.5}%
+\contentsline {section}{\numberline {6-6}اثر حافظه کدگذار}{29}{section.6.6}%
+\contentsline {section}{\numberline {6-7}اثر تعداد فریم‌های دریافتی}{29}{section.6.7}%
+\contentsline {section}{\numberline {6-8}اثر termination}{29}{section.6.8}%
+\contentsline {section}{\numberline {6-9}اثر نوع interleaver}{29}{section.6.9}%
+\contentsline {section}{\numberline {6-10}اثر hard و soft observation}{29}{section.6.10}%
+\contentsline {section}{\numberline {6-11}تحلیل ambiguity}{29}{section.6.11}%
+\contentsline {section}{\numberline {6-12}مقایسه با روش‌های موجود}{30}{section.6.12}%
+\contentsline {section}{\numberline {6-13}تحلیل آماری Monte Carlo}{30}{section.6.13}%
+\contentsline {section}{\numberline {6-14}بحث نتایج}{30}{section.6.14}%
+\contentsline {chapter}{\numberline {7}توسعه روش پیشنهادی و مطالعات تکمیلی}{31}{chapter.7}%
+\contentsline {section}{\numberline {7-1}مقدمه}{31}{section.7.1}%
+\contentsline {section}{\numberline {7-2}بازسازی در شرایط عدم همزمانی}{31}{section.7.2}%
+\contentsline {section}{\numberline {7-3}تخمین طول فریم ناشناخته}{31}{section.7.3}%
+\contentsline {section}{\numberline {7-4}تخمین نرخ کد}{32}{section.7.4}%
+\contentsline {section}{\numberline {7-5}بازسازی تحت puncturing ناشناخته}{32}{section.7.5}%
+\contentsline {section}{\numberline {7-6}بازسازی با soft information}{32}{section.7.6}%
+\contentsline {section}{\numberline {7-7}بازسازی با تعداد فریم محدود}{32}{section.7.7}%
+\contentsline {section}{\numberline {7-8}بازسازی در شرایط کانال متغیر}{32}{section.7.8}%
+\contentsline {section}{\numberline {7-9}استفاده از روش‌های هوشمند برای هدایت جست‌وجو}{32}{section.7.9}%
+\contentsline {section}{\numberline {7-10}مقایسه Best-first، Beam Search و روش‌های دیگر}{33}{section.7.10}%
+\contentsline {section}{\numberline {7-11}امکان استفاده از یادگیری ماشین برای pruning}{33}{section.7.11}%
+\contentsline {chapter}{\numberline {8}جمع‌بندی و پیشنهادهای آینده}{35}{chapter.8}%
+\contentsline {section}{\numberline {8-1}جمع‌بندی تحقیق}{35}{section.8.1}%
+\contentsline {section}{\numberline {8-2}دستاوردهای اصلی}{35}{section.8.2}%
+\contentsline {section}{\numberline {8-3}پاسخ به پرسش‌های تحقیق}{35}{section.8.3}%
+\contentsline {section}{\numberline {8-4}محدودیت‌های روش}{36}{section.8.4}%
+\contentsline {section}{\numberline {8-5}کاربردهای عملی}{36}{section.8.5}%
+\contentsline {section}{\numberline {8-6}مسیرهای پژوهشی آینده}{36}{section.8.6}%
+\contentsline {chapter}{منابع علمی}{37}{chapter*.12}%
+\contentsline {chapter}{واژه‌نامهٔ فارسی به انگلیسی}{39}{section*.13}%
+\contentsline {chapter}{واژه‌نامهٔ انگلیسی به فارسی}{41}{section*.17}%
+\renewcommand \cftchappresnum {پیوست~}\setlength {\cftchapnumwidth }{\mylenapp }
+\contentsline {chapter}{\numberline {آ}مطالب تکمیلی نظری}{43}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {ب}جداول و نتایج تکمیلی}{45}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {پ}جزئیات الگوریتمی و پیاده‌سازی}{47}{appendix.Alph3}%
+\contentsline {paragraph}{\numberline {پ-0-0-0-1}Keywords}{دوم}{paragraph.C.0.0.0.1}%

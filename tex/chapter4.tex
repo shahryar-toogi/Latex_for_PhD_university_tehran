@@ -1,0 +1,95 @@
+% !TeX root=../main.tex
+\chapter{روش پیشنهادی بازسازی کور مشترک}
+\label{chap:proposed-method}
+
+\section{مقدمه}
+این فصل قلب رساله است و معماری الگوریتم بازسازی کور مشترک کد توربو را از ایدهٔ اصلی تا تحلیل درستی شرح می‌دهد.
+
+\section{ایده اصلی روش پیشنهادی}
+ایدهٔ محوری، ترکیب قیود جبری RSC با آزمون آماری تحت نویز و جست‌وجوی درختی مقید است تا فضای جایگزشت‌ها و پلی‌نوم‌ها به‌صورت تدریجی هرس شود.
+
+\section{تعریف فضای جست‌وجو}
+\subsection{فضای پلی‌نوم‌ها}
+\subsection{فضای حافظه}
+\subsection{فضای درهم‌ریزها}
+\subsection{محدودیت‌های طول فریم}
+فضای خام درهم‌ریز از مرتبهٔ \(N!\) است و جست‌وجوی کامل عملاً ناممکن است؛ بنابراین کاهش فضا با قیود ضروری است.
+
+\section{استخراج قیود جبری RSC}
+\subsection{رابطه recursive}
+\subsection{قیود parity}
+\subsection{قیود polynomial realizability}
+این قیود نامزدهای ناسازگار را در مراحل اولیه حذف می‌کنند.
+
+\section{آزمون آماری قیود}
+\subsection{احتمال برقراری constraint}
+\subsection{احتمال نقض constraint}
+\subsection{مدل Binomial}
+\subsection{تعیین آستانه رد}
+\subsection{کنترل احتمال پذیرش کاذب}
+تحت نویز، برقراری دقیق قیود تضمین نمی‌شود؛ بنابراین آزمون آماری مبتنی بر مدل دوجمله‌ای برای پذیرش یا رد فرضیه‌ها به کار می‌رود.
+
+\section{معماری جست‌وجوی درختی}
+\subsection{تعریف Node}
+\subsection{تعریف Depth}
+\subsection{تعریف Hypothesis}
+\subsection{Priority Queue}
+\subsection{Best-first Search}
+جست‌وجوی بهترین‌اول با صف اولویت، بسط فرضیه‌های امیدوارکننده‌تر را در اولویت قرار می‌دهد.
+
+\section{فاز اول بازسازی}
+\subsection{بازسازی \(U_1\)}
+\subsection{بازسازی \(P_1\)}
+\subsection{بازسازی \(q(D)\)}
+\subsection{استخراج \(g_0(D)\)}
+\subsection{استخراج \(g_1(D)\)}
+\subsection{تعیین حافظه \(m\)}
+\subsection{کنترل طول فریم}
+فاز اول عمدتاً مؤلفه‌های مرتبط با کدگذار اول و طول سازگار را بازیابی می‌کند.
+
+\section{فاز دوم بازسازی}
+\subsection{بازسازی \(U_2\)}
+\subsection{بازسازی \(P_2\)}
+\subsection{قیود interleaver}
+\subsection{بازیابی \(\pi_i\)}
+\subsection{بازیابی \(\pi_o\)}
+فاز دوم با اتکا به نتایج فاز اول، دنباله‌ها و درهم‌ریزهای داخلی و خارجی را بازسازی می‌کند.
+
+\section{راهبردهای Pruning}
+\subsection{Parity-consistency}
+\subsection{Polynomial realizability}
+\subsection{Interleaver consistency}
+\subsection{Encoder-domain constraint}
+\subsection{Heuristic pruning}
+هرس چندلایه مانع انفجار شاخه‌ها می‌شود و باید احتمال حذف پاسخ واقعی را کنترل کند.
+
+\section{الگوریتم نهایی}
+در این بخش شبه‌کد کامل الگوریتم دوفازی همراه با ورودی/خروجی و معیار توقف ارائه می‌شود.
+
+\begin{algorithm}[ht]
+\caption{اسکلت الگوریتم بازسازی کور مشترک کد توربو}
+\label{alg:joint-blind}
+\begin{algorithmic}[1]
+\REQUIRE مشاهدات \(R\)، محدودهٔ جست‌وجوی \(m\) و طول، آستانه‌های آماری
+\ENSURE مجموعهٔ پاسخ‌های مجاز \(\widehat{\Theta}\)
+\STATE مقداردهی صف اولویت با فرضیه‌های اولیهٔ فاز اول
+\WHILE{صف خالی نیست}
+	\STATE انتخاب بهترین فرضیه
+	\STATE آزمون قیود جبری و آماری
+	\IF{فرضیه رد شود}
+		\STATE هرس و ادامه
+	\ENDIF
+	\STATE بسط فرزندان و به‌روزرسانی صف
+\ENDWHILE
+\STATE اجرای فاز دوم برای نامزدهای باقی‌مانده و تشکیل \(\widehat{\Theta}\)
+\RETURN \(\widehat{\Theta}\)
+\end{algorithmic}
+\end{algorithm}
+
+\section{تحلیل درستی الگوریتم}
+\subsection{شرط لازم}
+\subsection{شرط کافی}
+\subsection{احتمال حذف جواب واقعی}
+\subsection{احتمال پذیرش جواب کاذب}
+\subsection{کامل بودن یا عدم کامل بودن جست‌وجو}
+در این بخش، خواص نظری الگوریتم نسبت به مقالهٔ پایه گسترش می‌یابد تا برای سطح رسالهٔ دکتری کفایت استدلالی داشته باشد.

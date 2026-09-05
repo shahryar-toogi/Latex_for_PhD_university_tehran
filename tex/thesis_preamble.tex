@@ -1,0 +1,32 @@
+% ابتدای درج صفحات مختلف
+\coverPage
+% بررسی حالت پیش‌نویس
+\ifoptiondraft{}{% 
+    \besmPage
+    \titlePage
+} % end ifoptiondraft
+\abstractPage
+\graphicalAbstractPage
+\ifoptiondraft{}{%
+    % چنانچه مایل به چاپ صفحات «تقدیم» و «سپاس‌گزاری» نیستید، خطوط زیر را غیرفعال کنید.
+    \taghdimPage
+    \ghadrdaniPage
+    \davaranPage
+    \esalatPage
+    \similarityPage
+    \oathPage
+    \fundingPage
+    \mojavezPage
+} % end ifoptiondraft
+% شروع درج فهرست‌ها
+\newpage\cleardoublepage
+\pagenumbering{harfi} % آ، ب، ...
+\tableofcontents \clearpage
+% بررسی حالت پیش‌نویس برای بقیه فهرست‌ها
+\ifoptiondraft{
+    \listoftodos
+}{%
+    \listoffigures \clearpage
+    \listoftables  \clearpage
+    \printacronyms
+} % end ifoptiondraft

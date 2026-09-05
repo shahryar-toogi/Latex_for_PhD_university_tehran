@@ -1,0 +1,99 @@
+% !TEX TS-program = xelatex
+% Command for running this example (needs latexmkrc file):
+%    latexmk -bibtex -pdf main.tex
+
+%	نمونه پایان‌نامه آماده شده با استفاده از کلاس tehran-thesis، نگارش 1
+%	سینا ممکن، دانشگاه تهران 
+%	https://github.com/sinamomken/tehran-thesis
+%	گروه پارسی‌لاتک
+%	http://www.parsilatex.com
+%	این نسخه، بر اساس نسخه‌ 0.1 از کلاس IUST-Thesis آقای محمود امین‌طوسی آماده شده است.
+%        http://profsite.sttu.ac.ir/mamintoosi
+
+%----------------------------------------------------------------------------------------------
+% اگر قصد نوشتن پروژه کارشناسی را دارید، در خط زیر به جای msc، کلمه bsc و اگر قصد نوشتن رساله دکترا را دارید، کلمه phd را قرار دهید. کلیه تنظیمات لازم، به طور خودکار، اعمال می‌شود.
+
+% اگر مایلید پایان‌نامه شما دورو باشد به جای oneside در خط زیر از twoside استفاده کنید.
+
+% برای حاشیه‌نویسی و کم کردن صفحات ابتدایی، گزینه draft را وارد و برای نسخه نهایی آن را حذف کنید.
+
+% برای استفاده از قلم‌های سری IR Series گزینه irfonts را وارد و برای استفاده از قلم‌های X Series 2 آن را حذف کنید.
+
+\documentclass[
+twoside
+% ,openany
+,phd
+,irfonts
+% ,draft
+]{./tex/tehran-thesis}
+
+% فایل commands.tex را مطالعه کنید؛ چون دستورات مربوط به فراخوانی بسته‌ها، فونت و دستورات خاص در این فایل قرار دارد.
+\input{./tex/commands}
+
+% مشخصات پایان‌نامه را در فایلهای faTitle و enTitle وارد نمایید.
+\input{./tex/faTitle}
+% مشخصات انگلیسی پایان‌نامه
+\input{./tex/enTitle}
+
+% تنظیمات و تعاریف واژه‌نامه و اختصارات
+\input{./tex/glossaries-settings}
+\input{./tex/words}
+\input{./tex/acronyms}
+
+\begin{document}
+
+\pagenumbering{adadi} % یک، دو، ...
+\input{./tex/thesis_preamble}
+
+\pagestyle{fancy}
+\pagenumbering{arabic} % 1, 2, ...
+
+\include{./tex/chapter1}		% فصل اول: کلیات تحقیق
+\include{./tex/chapter2}		% فصل دوم: مبانی نظری و پیشینه پژوهش
+\include{./tex/chapter3}		% فصل سوم: مدل سیستم و صورت‌بندی ریاضی مسئله
+\include{./tex/chapter4}		% فصل چهارم: روش پیشنهادی بازسازی کور مشترک
+\include{./tex/chapter5}		% فصل پنجم: تحلیل نظری و پیچیدگی محاسباتی
+\include{./tex/chapter6}		% فصل ششم: نتایج شبیه‌سازی و ارزیابی عملکرد
+\include{./tex/chapter7}		% فصل هفتم: توسعه روش و مطالعات تکمیلی
+\include{./tex/chapter8}		% فصل هشتم: جمع‌بندی و پیشنهادهای آینده
+
+% منابع علمی (سبک IEEE)
+\pagestyle{empty}
+{
+\small
+\onehalfspacing
+\bibliographystyle{ieeetr-fa}
+\bibliography{./tex/MyReferences}
+}
+
+\pagestyle{fancy}
+
+% واژه‌نامه‌ها پیش از پیوست‌ها (مطابق قالب دانشکده)
+\onehalfspacing
+\cleardoublepage
+\printglossary
+
+\appendix
+\clearpage
+% ثبت تغییر پیشوند فهرست مطالب پیش از اولین پیوست
+\addtocontents{toc}{%
+    \protect\renewcommand\protect\cftchappresnum{\appendixname~}%
+    \protect\setlength{\cftchapnumwidth}{\mylenapp}}
+\null\clearpage
+
+\include{./tex/appendix1}		% پیوست الف: مطالب تکمیلی
+\include{./tex/appendix2}		% پیوست ب: نتایج و جداول تکمیلی
+\include{./tex/appendix3}		% پیوست پ: جزئیات الگوریتمی
+
+\pagenumbering{tartibi} % اول، دوم، ...
+
+\cleardoublepage
+\printindex
+
+\begin{latin}
+\baselineskip=.6cm
+\latinabstract
+\latinTitlePage
+\end{latin}
+
+\end{document}
