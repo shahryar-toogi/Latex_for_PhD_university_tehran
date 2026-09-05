@@ -148,7 +148,7 @@ latexmk -bibtex -pdf main.tex
 
 ### Maintainer of this fork
 
-**Shahriyar Toghi** (`شهریار توقی`)
+**Shahryar Tooghi** (`شهریار توقی`)
 
 ### Upstream
 
